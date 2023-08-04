@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Example background colors for different sections */
+.section1 {
+    background-color: #f0f0f0;
+}
+
+.section2 {
+    background-color: #e0e0e0;
+}
+
+.section3 {
+    background-color: #d0d0d0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+}
